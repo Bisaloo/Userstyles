@@ -1,0 +1,74 @@
+/*
+Facebook userstyle by Hugo Gruson
+Last update: 2016-26-05
+License: GPL-v3
+*/
+
+@-moz-document domain(facebook.com) {
+  /****************************
+  ** Remove useless elements **
+  ****************************/
+  #rightCol { display: none; }     /* Ads, 'footer' and annoying recommendations */
+  #appsNav { display: none; }     /* Apps list in the left navbar */
+  #listsNav { display: none; }     /* Groups list in the left navbar */
+  #interestsNav { display: none; }     /* Interests in the left navbar */
+  #eventsNav { display: none;}      /* Events in the left navbar */
+  #findFriendsNav { display: none; }     /* 'Find out more friends' button in the topbar */
+  ._4-u2.mvm._495i._4-u8 { display: none; }     /* 'Back to top stories' */
+  #pageFooter { display: none;}
+
+  /**********************
+  ** Fix main timeline **
+  **********************/
+  /* Use the space previously made available */
+  #contentArea {
+    width:80% !important;     /* Stretch 'main' content area */
+    padding-left: 100px !important;
+  }
+  .clearfix _5142 {height:10px!important;}
+
+  /* Center pictures */
+  ._5v3q ._4-eo { margin-left: auto; margin-right: auto;}
+  ._6m5 { margin-left: auto; margin-right: auto;}
+  ._6n_ { margin-left: auto; margin-right: auto;}
+  ._5vb_ ._5aqh { margin-left: auto; margin-right: auto;}
+  ._2a2q { margin-left: auto; margin-right: auto;}
+  div._5mly._45oh { margin-left:auto ;margin-right:auto}
+  uiScaledImageContainer _5ind {margin-left:auto;margin-right:auto}
+
+  /* Keep topbar and navbar on screen */
+  #leftCol { position: fixed; }
+  #blueBarNAXAnchor { position: fixed !important; }
+
+  /***************
+  ** Flat style **
+  ***************/
+  ._4-u2 { border-width: 0px; } /* main timeline */
+
+  /* top bar */
+  ._4f7n {
+    border-width: 0px;
+    box-shadow: none;
+  }
+
+  /*******************************
+  ** Finally, fix side chat bar **
+  *******************************/
+  .sp_0uj6EoebNWg, .sp_xVXlN8iW0bv { display: none; }     /* Remove phone icon */
+
+  /**************
+  ** Fix login **
+  **************/
+  ._4f7n { width: 100%}
+  .pvl { display: none;}
+  .fb_logo{ display: none;}
+
+  /***************************
+  ** Fix chat conversations **
+  ***************************/
+  ._d97 {
+    text-align: justify !important;
+    hyphens: auto;
+    white-space: normal !important;
+  }
+}
