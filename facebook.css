@@ -18,7 +18,7 @@ License: GPL-v3
   #pageFooter { display: none; }
 
   /* Actual clickbait, just waiting for misclick to trick you */
-  ._42ft _4jy0 PageLikeButton _4jy3 _517h _51sy { display : none; } /* 'Like Page'
+  .PageLikeButton { display : none; }       /* 'Like Page'
 
   /**********************
   ** Fix main timeline **
