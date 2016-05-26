@@ -8,13 +8,13 @@ License: GPL-v3
   /****************************
   ** Remove useless elements **
   ****************************/
-  #rightCol { display: none; }     /* Ads, 'footer' and annoying recommendations */
-  #appsNav { display: none; }     /* Apps list in the left navbar */
-  #listsNav { display: none; }     /* Groups list in the left navbar */
-  #interestsNav { display: none; }     /* Interests in the left navbar */
-  #eventsNav { display: none;}      /* Events in the left navbar */
-  #findFriendsNav { display: none; }     /* 'Find out more friends' button in the topbar */
-  ._4-u2.mvm._495i._4-u8 { display: none; }     /* 'Back to top stories' */
+  #rightCol { display: none; }              /* Ads, 'footer' and annoying recommendations */
+  #appsNav { display: none; }               /* Apps list in the left navbar */
+  #listsNav { display: none; }              /* Groups list in the left navbar */
+  #interestsNav { display: none; }          /* Interests in the left navbar */
+  #eventsNav { display: none;}              /* Events in the left navbar */
+  #findFriendsNav { display: none; }        /* 'Find out more friends' button in the topbar */
+  ._4-u2.mvm._495i._4-u8 { display: none; } /* 'Back to top stories' */
   #pageFooter { display: none;}
 
   /**********************
